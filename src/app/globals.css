@@ -5,3 +5,5 @@
 p, span {
   @apply cursor-pointer;
 }
+
+div {}
