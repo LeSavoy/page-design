@@ -41,9 +41,9 @@ export default function Footer() {
       <div className="flex mx-24 justify-between mt-5">
         <p>&copy; 2023 Savoy inc. All righs reserved.</p>
         <div className="flex gap-10">
-          <span><AiOutlineInstagram size={30} /></span>
-          <span><AiOutlineGithub size={30} /></span>
-          <span><AiOutlineLinkedin size={30} /></span>
+          <a href="#" ><AiOutlineInstagram size={30} /></a>
+          <a href="https://github.com/lesavoy" target="_blank" ><AiOutlineGithub size={30} /></a>
+          <a href="https://www.linkedin.com/in/mateus-santos-1a0b85180/" target="_blank"><AiOutlineLinkedin size={30} /></a>
         </div>
 
       </div>
