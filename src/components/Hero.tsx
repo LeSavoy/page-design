@@ -16,7 +16,7 @@ export default function Hero() {
 
         <div className="flex gap-3 font-semibold text-sm">
           <input className="h-11 w-40 bg-blue-500 text-white hover:bg-blue-600 duration-75 ease-in rounded-3xl cursor-pointer" type="button" value="Start free trial" />
-          <input className="h-11 w-40 border-[1px] border-black font-medium rounded-3xl cursor-pointer"  type="button" value="Book a demo" />
+          <input className="h-11 w-40 border-[1px] border-blue-500 text-blue-500 font-medium rounded-3xl cursor-pointer hover:border-none hover:bg-blue-500 hover:text-white duration-75 ease-in text-sm"  type="button" value="Book a demo" />
         </div>
       </section>
 

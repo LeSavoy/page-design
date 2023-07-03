@@ -6,4 +6,6 @@ p, span {
   @apply cursor-pointer;
 }
 
-div {}
+p:hover {
+  @apply hover:text-slate-600 duration-75 ease-in;
+}
